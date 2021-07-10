@@ -1,0 +1,79 @@
+.bg-primary {
+  background-color: rgb(204, 197, 197) !important;
+}
+#nome{
+    font-weight: 700;
+    font-size: 28px;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.img-profile {
+
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  border-radius: 50%;
+}
+
+.nav-link{
+  color: black;
+  font-size: 20px;
+  transition:.5s;
+}
+
+ul li {
+  padding: 6px 0;
+}
+ul li a {
+  position: relative;
+  display: block;
+  font-family: Lato, sans-serif;
+  color: #020202;
+  transition: 0.5s;
+
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #3498db;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+ul li a:hover {
+  color: #95a5a6;
+}
+ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+
+/* Efeito sublinhado no menu */
+
+
+
+
+@media (min-width: 992px){
+  #sideNav{
+    padding-left: 10;
+    padding-right: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+
+  }
+
+}
