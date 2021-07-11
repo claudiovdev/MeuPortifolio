@@ -1,36 +1,55 @@
+.conteudo{
+  margin-left: 280px;
+}
+
 .bg-primary {
-  background-color: rgb(204, 197, 197) !important;
+  background-color: #000000 !important;
 }
 #nome{
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 28px;
-    width: 100%;
     font-family:Arial, Helvetica, sans-serif;
 
 }
 
-.img-profile {
+/* Configurando o toggle */
+.navbar-light .navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+.navbar-toggler {
 
-  width: 200px;
-  height: 200px;
+  background-color: #fff;
+
+}
+
+.img-profile {
+  width: 180px;
+  height: 180px;
   margin-top: 50px;
   border-radius: 50%;
+  border: 0.3rem solid #4d4e4d
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
 }
 
 .nav-link{
-  color: black;
+  color: rgb(231, 209, 209);
   font-size: 20px;
   transition:.5s;
 }
 
+/* Efeito sublinhado no menu */
 ul li {
   padding: 6px 0;
 }
 ul li a {
   position: relative;
   display: block;
-  font-family: Lato, sans-serif;
-  color: #020202;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #c4baba;
   transition: 0.5s;
 
 }
@@ -47,16 +66,14 @@ ul li a::after {
   transition: transform 0.5s;
 }
 ul li a:hover {
-  color: #95a5a6;
+  color: #fafafa;
 }
 ul li a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
 
-
-
-/* Efeito sublinhado no menu */
+/* Fim Efeito sublinhado no menu */
 
 
 

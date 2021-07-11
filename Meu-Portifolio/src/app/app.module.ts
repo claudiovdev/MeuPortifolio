@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/template/header/header.component';
 import { BodyComponent } from './components/template/body/body.component';
-import { FooterComponent } from './components/template/footer/footer.component';
+
 
 
 @NgModule({
@@ -13,7 +13,6 @@ import { FooterComponent } from './components/template/footer/footer.component';
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    FooterComponent
   ],
   imports: [
     BrowserModule,
